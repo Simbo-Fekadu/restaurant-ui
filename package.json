@@ -1,22 +1,23 @@
 {
-  "name": "shadcn-ui-monorepo",
-  "version": "0.0.1",
+  "name": "restaurant-ui",
   "private": true,
   "scripts": {
+    "dev": "node scripts/welcome.js && pnpm run dev:all",
+    "dev:all": "concurrently \"pnpm --filter burger-spot dev -p 3100\" \"pnpm --filter noodles-and-veggie dev -p 3200\" \"pnpm --filter coffee dev -p 3300\" \"pnpm --filter traditional-foods dev -p 3400\" \"pnpm --filter cake dev -p 3500\"",
     "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "start": "turbo start",
+    "lint": "turbo lint"
   },
   "devDependencies": {
     "@workspace/eslint-config": "workspace:*",
     "@workspace/typescript-config": "workspace:*",
-    "prettier": "^3.5.1",
-    "turbo": "^2.4.2",
-    "typescript": "5.7.3"
+    "concurrently": "^8.0.0",
+    "prettier": "^3.0.0",
+    "turbo": "^2.4.0",
+    "typescript": "^5.0.0"
   },
-  "packageManager": "pnpm@10.4.1",
-  "engines": {
-    "node": ">=20"
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
+    "next-themes": "^0.4.6"
   }
 }
