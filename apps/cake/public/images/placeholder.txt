@@ -1,0 +1,4 @@
+Required images for Cake Shop:
+1. hero-cake.jpg - Hero section image
+2. about-cake.jpg - About section image
+3. menu items and other images will be added later 

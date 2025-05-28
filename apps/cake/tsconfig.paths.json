@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["../../packages/ui/components/*"],
+      "@workspace/ui/components/*": ["../../packages/ui/components/*"]
+    }
+  }
+}
