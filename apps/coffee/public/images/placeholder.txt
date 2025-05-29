@@ -1,0 +1,4 @@
+Required images for Coffee Shop:
+1. hero-coffee.jpg - Hero section image
+2. about-coffee.jpg - About section image
+3. menu items and other images will be added later 
