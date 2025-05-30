@@ -1,0 +1,4 @@
+Required images for Noodles & Veggie:
+1. hero-noodles.jpg - Hero section image
+2. about-noodles.jpg - About section image
+3. menu items and other images will be added later 
