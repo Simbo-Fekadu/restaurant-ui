@@ -1,0 +1,4 @@
+Required images for Traditional Foods:
+1. hero-traditional.jpg - Hero section image
+2. about-traditional.jpg - About section image
+3. menu items and other images will be added later 
